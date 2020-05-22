@@ -3,7 +3,7 @@ def solution(xs):
     negs= [n for n in xs if n < 0]
     posi = [n for n in xs if n > 0]
     if len(negs) % 2 == 0:
-        negs.sort()
+       pass
     elif len(negs) % 2!=0:
         negs.sort()
         negs.pop()
@@ -15,4 +15,3 @@ def solution(xs):
             prod *= x
         print(prod)
     return '0'
-solution()
